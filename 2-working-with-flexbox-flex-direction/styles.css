@@ -36,5 +36,8 @@ a 'display: flexbox-item'. */
   /* > NOTE (it has nothing to do with flexbox) */
   /* 'vh' stands for 'viewport height'. */
   /* It will make the container stretch to 100% of the viewport size. */
-  height: 100vh;
+  min-height: 100vh;
+
+  /* Sets the 'main' and 'cross' axis of the flexbox view rendering direction.*/
+  flex-direction: column-reverse;
 }
