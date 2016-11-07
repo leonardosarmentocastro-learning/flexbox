@@ -61,3 +61,11 @@ The available values for `flex-wrap` are:
 2. If we sets the `flexbox-wrap` to `wrap-reverse`, it will change the `cross-axis` direction from top to bottom, to bottom to top, and all the `flexbox-item`(divs) will be reversed inside the `.container`.
 
 3. Notice that every `.box` is a common box, so if you have some blank spaces at the edges of your boxes, you can set your `width` to `33.333333%` and see that is perfectly responsive and filling all the spaces on its edges.
+
+### Lesson 5
+1. The property `flex` can have a lot of values, but setting it to `1`, it makes all the boxes fill the full width of a container and distribute it among each other 'flexbox-item'.
+
+2. The `order` property starts with a default value of `0`.
+Everytime you set a different value to it, it will re-arrange its flex itens taking the value of `order` as a index.
+> **Take care** when selecting the values of `flexbox-item` with an `order` value: it can give you unexpected results.
+So don't use `order` with data that the user might copy and paste, use it to re arrange layout sections like a header, content and footer.
